@@ -1,21 +1,21 @@
 "use strict";
 
-var txtOmschrijving;
-var txtVeldNaam;
+var inpOmschrijving;
+var inpVeldNaam;
 
-window.addEventListener('load', Initieer);
+window.addEventListener('load', initialize);
 
-function Initieer() {
+function initialize() {
   //Declareer en initialiseer een variabele om de knop in bij te houden
 
-  // Sla de DOM-elementen met id txtOmschrijving en txtVeldNaam op in hun resp. variabelen
+  // Sla de DOM-elementen met id inpOmschrijving en inpVeldNaam op in hun resp. variabelen
 
-  // Vul in txtOmschrijving en txtVeldNaam standaardwaarden in, nl. Adres en txtAdres
+  // Vul in inpOmschrijving en inpVeldNaam standaardwaarden in, nl. Adres en txtAdres
 
   // Voeg een eventlisteners toe aan de knop om VoegVeldToe te laten uitvoeren bij een klik
 }
 
-function VoegVeldToe() {
+function voegVeldToe() {
   /*
   Declareer en initialiseer een variabele om divNieuweElementen in bij te houden
 
